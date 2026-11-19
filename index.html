@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>온결 필라테스 · 김해 장유 기구 필라테스 · 체험 수업 (찰칵홈 예시)</title>
+<meta name="description" content="김해 장유 삼문동 기구 필라테스 · 1:1 · 듀엣 · 그룹 · 체형 교정. 주간 시간표, 이용권 가격, 체험 수업 예약. (찰칵홈이 만든 예시 사이트)">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap">
+<style>
+:root{--sg:#6E8B74;--sg2:#4E6A55;--cr:#F6F2EA;--sand:#EDE5D8;--ink:#2B2A26;--mu:#77736A;--ln:#E4DDD0;--serif:"Cormorant Garamond",serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:"Pretendard Variable",Pretendard,system-ui,sans-serif;color:var(--ink);background:#fff;font-size:16.5px;line-height:1.7;letter-spacing:-.01em}
+a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
+.w{max-width:1180px;margin:0 auto;padding:0 22px}
+h1,h2,h3{margin:0;font-weight:700;letter-spacing:-.03em;line-height:1.3}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:15px 26px;border-radius:99px;font:inherit;font-weight:700;border:0;cursor:pointer}
+.btn.s{background:var(--sg2);color:#fff}.btn.l{background:rgba(255,255,255,.9);color:var(--ink)}
+header{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--ln)}
+header .w{display:flex;align-items:center;height:74px;gap:30px}
+.logo{font-family:var(--serif);font-size:28px;color:var(--sg2);line-height:1}.logo small{display:block;font-family:"Pretendard Variable",sans-serif;font-size:11px;letter-spacing:.3em;color:var(--mu);margin-top:3px}
+header nav{display:flex;gap:28px;margin-left:auto;font-size:15px;font-weight:600}
+header .btn{padding:11px 20px;font-size:14.5px}
+@media(max-width:900px){header nav{display:none}}
+.hero{position:relative;min-height:min(86vh,760px);display:flex;align-items:flex-end;color:#fff;background:#8A9A86 center/cover}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(30,34,28,.72),rgba(30,34,28,.1) 60%)}
+.hero .w{position:relative;padding-block:0 80px;width:100%}
+.hero .ey{font-size:13px;letter-spacing:.3em;opacity:.9}
+.hero h1{font-size:clamp(38px,5.4vw,70px);font-weight:600;margin:14px 0 14px}.hero h1 i{font-family:var(--serif);font-weight:500}
+.hero p{max-width:32em;font-size:18px;opacity:.92;margin:0 0 28px}
+.strip{background:var(--cr)}.strip .w{display:grid;grid-template-columns:repeat(4,1fr)}
+.strip div{padding:24px 18px;border-left:1px solid var(--ln)}.strip div:first-child{border-left:0}.strip b{display:block;font-size:20px}.strip span{color:var(--mu);font-size:14.5px}
+@media(max-width:760px){.strip .w{grid-template-columns:1fr 1fr}.strip div{border-top:1px solid var(--ln)}.strip div:nth-child(3){border-left:0}}
+section{padding-block:100px}section.alt{background:var(--cr)}
+.sh{margin-bottom:46px}.sh .k{font-family:var(--serif);font-style:italic;font-size:22px;color:var(--sg)}.sh h2{font-size:clamp(28px,3.4vw,42px);margin-top:4px}.sh p{color:var(--mu);margin:10px 0 0;max-width:44em}.sh.c{text-align:center}.sh.c p{margin-inline:auto}
+.intro{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.intro .im{aspect-ratio:4/5;border-radius:200px 200px 24px 24px;background:var(--sand) center/cover}
+.intro q{display:block;font-family:var(--serif);font-size:clamp(26px,2.8vw,36px);line-height:1.35;color:var(--sg2);margin-bottom:20px}.intro q:before,.intro q:after{content:""}
+.intro ul{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:12px}.intro li{display:flex;gap:12px}.intro li b{flex:none;width:28px;height:28px;border-radius:50%;background:var(--sg);color:#fff;display:grid;place-items:center;font-size:13px}
+@media(max-width:860px){.intro{grid-template-columns:1fr}}
+.cls{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cl{background:#fff;border-radius:24px;overflow:hidden;border:1px solid var(--ln)}
+.cl .im{aspect-ratio:1/1;background:var(--sand) center/cover}.cl .in{padding:20px}.cl h3{font-size:20px}.cl small{display:block;color:var(--sg);font-weight:700;margin:2px 0 6px}.cl p{margin:0;color:var(--mu);font-size:15px}
+@media(max-width:960px){.cls{grid-template-columns:1fr 1fr}}@media(max-width:560px){.cls{grid-template-columns:1fr}}
+.sch{overflow-x:auto;border:1px solid var(--ln);border-radius:20px;background:#fff}
+.sch table{width:100%;min-width:720px;border-collapse:collapse;font-size:14.5px}.sch th,.sch td{padding:12px;text-align:center;border-bottom:1px solid var(--ln)}.sch th{background:var(--cr);font-weight:700}
+.sch td span{display:block;border-radius:10px;padding:6px 4px;font-weight:700;font-size:13.5px}
+.t1{background:#E4ECE3;color:var(--sg2)}.t2{background:#F3E8D6;color:#8A6A3A}.t3{background:#E8E3EF;color:#5E4E7A}
+.legend{display:flex;gap:14px;margin-top:12px;font-size:14px;color:var(--mu)}.legend i{display:inline-block;width:12px;height:12px;border-radius:4px;margin-right:6px;vertical-align:-1px}
+.price{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.pr{background:#fff;border:1px solid var(--ln);border-radius:24px;padding:30px}.pr.on{border:2px solid var(--sg);position:relative}.pr.on:after{content:"가장 많이 선택";position:absolute;top:-13px;left:24px;background:var(--sg);color:#fff;font-size:12px;font-weight:700;border-radius:99px;padding:4px 12px}
+.pr b{font-size:20px}.pr .n{font-size:34px;font-weight:800;margin:10px 0 4px}.pr .n small{font-size:15px;color:var(--mu);font-weight:500}.pr ul{margin:12px 0 0;padding-left:18px;color:var(--mu);font-size:15px}
+@media(max-width:860px){.price{grid-template-columns:1fr}}
+.tch{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.tc .im{aspect-ratio:3/4;border-radius:24px;background:var(--sand) center 25%/cover}.tc b{display:block;font-size:19px;margin-top:14px}.tc small{color:var(--sg);font-weight:700}.tc p{margin:6px 0 0;color:var(--mu);font-size:15px}
+@media(max-width:860px){.tch{grid-template-columns:1fr}}
+.gal{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:220px 220px;gap:14px}.gal div{border-radius:20px;background:var(--sand) center/cover}.gal div:first-child{grid-row:span 2}
+@media(max-width:760px){.gal{grid-template-columns:1fr 1fr;grid-template-rows:180px 180px 180px}.gal div:first-child{grid-column:span 2;grid-row:auto}}
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.rv{background:#fff;border-radius:20px;padding:24px;border:1px solid var(--ln)}.rv q{display:block;font-size:16px}.rv q:before,.rv q:after{content:""}.rv small{display:block;color:var(--mu);margin-top:10px}
+@media(max-width:860px){.revs{grid-template-columns:1fr}}
+.bk{display:grid;grid-template-columns:.9fr 1.1fr;gap:30px;background:var(--sg2);color:#fff;border-radius:32px;padding:46px}
+.bk h2{font-size:clamp(28px,3vw,40px)}.bk p{opacity:.85}
+.bk form{background:#fff;color:var(--ink);border-radius:22px;padding:24px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.bk label{display:flex;flex-direction:column;gap:6px;font-weight:700;font-size:14px}.bk .full{grid-column:1/-1}
+.bk input,.bk select,.bk textarea{font:inherit;padding:12px;border:1px solid var(--ln);border-radius:12px}
+.slots{display:flex;flex-wrap:wrap;gap:6px}.slots button{border:1.5px solid var(--ln);background:#fff;border-radius:99px;padding:7px 12px;font:inherit;font-size:14px;cursor:pointer}.slots button.on{background:var(--sg);border-color:var(--sg);color:#fff}
+.ok{grid-column:1/-1;font-weight:700;color:var(--sg2)}
+@media(max-width:860px){.bk{grid-template-columns:1fr;padding:28px}.bk form{grid-template-columns:1fr}}
+.info{display:grid;grid-template-columns:1.2fr 1fr;gap:24px}.map{border-radius:20px;background:var(--sand);min-height:280px;display:grid;place-items:center;color:var(--mu);text-align:center}
+.info table{width:100%;border-collapse:collapse}.info th,.info td{text-align:left;padding:13px 4px;border-bottom:1px solid var(--ln)}.info th{width:100px;color:var(--mu);font-weight:600}
+@media(max-width:860px){.info{grid-template-columns:1fr}}
+footer{background:#2F3A31;color:#B9C2B5;padding-block:44px;font-size:14px}footer b{color:#fff}
+.fab{position:fixed;right:18px;bottom:18px;z-index:40}.fab a{display:flex;align-items:center;gap:8px;background:var(--sg2);color:#fff;font-weight:700;border-radius:99px;padding:14px 20px;box-shadow:0 12px 26px rgba(0,0,0,.22)}
+.badge{position:fixed;left:14px;bottom:14px;z-index:40;background:rgba(47,58,49,.9);color:#fff;font-size:12px;font-weight:600;border-radius:99px;padding:7px 12px}.badge a{color:#D9E8C9}
+</style>
+</head>
+<body>
+<header><div class="w"><a class="logo" href="#">Ongyeol<small>온결 필라테스 · 장유</small></a>
+ <nav><a href="#about">소개</a><a href="#class">수업</a><a href="#sch">시간표</a><a href="#price">이용권</a><a href="#tch">강사</a><a href="#info">오시는 길</a></nav>
+ <a class="btn s" href="#book">체험 예약</a></div></header>
+
+<div class="hero" style="background-image:url(img/hero.jpg)"><div class="w">
+ <div class="ey">PILATES STUDIO · JANGYU</div>
+ <h1>몸의 결을<br><i>다시 바르게.</i></h1>
+ <p>바른 자세와 가벼운 몸. 기구 필라테스로 내 몸에 맞춘 1:1부터 소그룹까지, 장유 삼문동 온결 필라테스입니다.</p>
+ <a class="btn l" href="#book">첫 체험 수업 예약 →</a>
+</div></div>
+<div class="strip"><div class="w"><div><b>최대 4명</b><span>소그룹 기구 수업</span></div><div><b>체형 분석</b><span>첫 수업 무료 진단</span></div><div><b>평일 22시</b><span>퇴근 후에도</span></div><div><b>주차 2시간</b><span>건물 무료 주차</span></div></div></div>
+
+<section id="about"><div class="w"><div class="intro">
+ <div class="im" style="background-image:url(img/about.jpg)"></div>
+ <div><span class="sh"><span class="k">About</span></span><q>“운동이 처음이어도 괜찮아요. 몸이 먼저 달라지는 걸 느끼실 거예요.”</q>
+  <p style="color:var(--mu)">온결은 '바른 결'이라는 뜻이에요. 굽은 어깨, 뻐근한 허리, 출산 후 약해진 코어까지. 체형을 먼저 살피고 나에게 맞는 동작부터 시작합니다.</p>
+  <ul><li><b>1</b><span><strong>체형 분석</strong> — 첫 수업에서 자세 사진으로 불균형을 확인해요</span></li><li><b>2</b><span><strong>맞춤 프로그램</strong> — 목표에 맞춰 수업 종류와 횟수를 추천해요</span></li><li><b>3</b><span><strong>변화 기록</strong> — 한 달마다 자세 사진을 비교해 드려요</span></li></ul></div>
+</div></div></section>
+
+<section id="class" class="alt"><div class="w">
+ <div class="sh c"><span class="k">Classes</span><h2>수업 안내</h2><p>목표와 몸 상태에 맞게 골라 보세요. 처음이면 체험 수업 때 추천해 드려요.</p></div>
+ <div class="cls">
+  <div class="cl"><div class="im" style="background-image:url(img/c1.jpg)"></div><div class="in"><h3>1:1 개인 레슨</h3><small>50분 · 맞춤</small><p>체형 교정 · 통증 관리가 필요할 때</p></div></div>
+  <div class="cl"><div class="im" style="background-image:url(img/c2.jpg)"></div><div class="in"><h3>듀엣 레슨</h3><small>50분 · 2인</small><p>친구 · 부부 · 가족과 함께</p></div></div>
+  <div class="cl"><div class="im" style="background-image:url(img/c3.jpg)"></div><div class="in"><h3>소그룹 기구</h3><small>50분 · 최대 4명</small><p>리포머 · 체어 · 바렐</p></div></div>
+  <div class="cl"><div class="im" style="background-image:url(img/c4.jpg)"></div><div class="in"><h3>산전 · 산후</h3><small>50분 · 1:1/듀엣</small><p>약해진 코어 · 골반 회복</p></div></div>
+ </div>
+</div></section>
+
+<section id="sch"><div class="w">
+ <div class="sh"><span class="k">Schedule</span><h2>주간 시간표</h2><p>소그룹 수업 시간이에요. 1:1과 듀엣은 원하는 시간으로 예약해요.</p></div>
+ <div class="sch"><table id="tb"></table></div>
+ <div class="legend"><span><i class="t1"></i>기구 소그룹</span><span><i class="t2"></i>바른 자세 · 초급</span><span><i class="t3"></i>코어 집중</span></div>
+</div></section>
+
+<section id="price" class="alt"><div class="w">
+ <div class="sh c"><span class="k">Membership</span><h2>이용권</h2><p>※ 찰칵홈 예시 사이트라 가격은 예시예요.</p></div>
+ <div class="price">
+  <div class="pr"><b>소그룹 8회</b><div class="n">22만<small> 원 · 2개월</small></div><ul><li>주 1~2회</li><li>회당 27,500원</li><li>첫 체형 분석 포함</li></ul></div>
+  <div class="pr on"><b>소그룹 24회</b><div class="n">54만<small> 원 · 4개월</small></div><ul><li>주 2회 추천</li><li>회당 22,500원</li><li>한 달마다 자세 비교 사진</li></ul></div>
+  <div class="pr"><b>1:1 개인 10회</b><div class="n">65만<small> 원 · 3개월</small></div><ul><li>체형 교정 · 통증 관리</li><li>회당 65,000원</li><li>원하는 시간 예약</li></ul></div>
+ </div>
+</div></section>
+
+<section id="tch"><div class="w">
+ <div class="sh"><span class="k">Instructors</span><h2>강사 소개</h2></div>
+ <div class="tch">
+  <div class="tc"><div class="im" style="background-image:url(img/t1.jpg)"></div><b>정유나 원장</b><small>재활 필라테스 · 8년</small><p>국제 필라테스 자격 · 산전산후 전문 과정</p></div>
+  <div class="tc"><div class="im" style="background-image:url(img/t2.jpg)"></div><b>한지수 강사</b><small>기구 소그룹 · 5년</small><p>체형 교정 · 바른 자세 프로그램</p></div>
+  <div class="tc"><div class="im" style="background-image:url(img/t3.jpg)"></div><b>오세린 강사</b><small>코어 · 다이어트 · 4년</small><p>퇴근 후 저녁반 담당</p></div>
+ </div>
+</div></section>
+
+<section class="alt"><div class="w">
+ <div class="sh"><span class="k">Space</span><h2>공간</h2><p>햇살이 드는 넓은 기구 룸과 개인 레슨 룸, 샤워실과 파우더룸이 있어요.</p></div>
+ <div class="gal"><div style="background-image:url(img/s1.jpg)"></div><div style="background-image:url(img/s2.jpg)"></div><div style="background-image:url(img/s3.jpg)"></div><div style="background-image:url(img/s4.jpg)"></div><div style="background-image:url(img/s5.jpg)"></div></div>
+</div></section>
+
+<section><div class="w">
+ <div class="sh c"><span class="k">Reviews</span><h2>회원 후기</h2><p>※ 예시 사이트라 후기는 예시 문구예요.</p></div>
+ <div class="revs">
+  <div class="rv"><q>운동이 처음인데 동작 하나하나 잡아 주셔서 무섭지 않았어요. 한 달 만에 어깨가 가벼워졌어요.</q><small>30대 직장인 · 예시</small></div>
+  <div class="rv"><q>출산 후 허리가 계속 아팠는데 산후 수업 받고 나서 많이 좋아졌어요.</q><small>30대 회원 · 예시</small></div>
+  <div class="rv"><q>저녁 9시 수업이 있어서 퇴근하고 와도 돼요. 주차도 편해요.</q><small>40대 회원 · 예시</small></div>
+ </div>
+</div></section>
+
+<section id="book" class="alt"><div class="w"><div class="bk">
+ <div><h2>첫 체험 수업 예약</h2><p>체험 수업 50분 + 체형 분석이 포함돼요. 예약하시면 원장님이 확인 문자를 보내 드려요.</p><p style="font-size:15px">· 편한 운동복만 챙겨 오세요<br>· 양말은 미끄럼 방지 양말을 드려요</p></div>
+ <form id="f">
+  <label>이름<input id="n" required></label><label>연락처<input id="c" required placeholder="010-"></label>
+  <label>희망 수업<select id="k"><option>소그룹 기구</option><option>1:1 개인</option><option>듀엣</option><option>산전 · 산후</option></select></label>
+  <label>희망 날짜<input id="d" type="date"></label>
+  <div class="full"><b style="font-size:14px">희망 시간</b><div class="slots" id="sl"></div></div>
+  <label class="full">몸 상태 · 목표 (선택)<textarea id="m" rows="2" placeholder="예: 허리가 자주 아파요 / 운동이 처음이에요"></textarea></label>
+  <button class="btn s full" style="justify-content:center">체험 예약하기 →</button><div class="ok" id="ok" hidden></div>
+ </form>
+</div></div></section>
+
+<section id="info"><div class="w">
+ <div class="sh"><span class="k">Location</span><h2>오시는 길</h2></div>
+ <div class="info"><div class="map">🗺 지도 자리<br><small>실제 사이트에서는 네이버·카카오 지도</small></div>
+  <table><tr><th>주소</th><td>경남 김해시 장유 삼문동 ○○로 ○○, 4층 (예시)</td></tr><tr><th>운영</th><td>평일 09:00 ~ 22:00 · 토 09:00 ~ 14:00 · 일 휴무</td></tr><tr><th>전화</th><td>055-000-0000 (예시)</td></tr><tr><th>주차</th><td>건물 주차장 2시간 무료</td></tr></table></div>
+</div></section>
+
+<footer><div class="w"><b>온결 필라테스</b> (예시) · 김해 장유<br>© 2026 Ongyeol Pilates · 이 사이트는 <a href="https://kisthestar1-boop.github.io/minsung-ai/web/" style="color:#D9E8C9">찰칵홈</a>이 만든 예시예요 · 상호·가격·후기는 가상</div></footer>
+<div class="fab"><a href="#book">🧘 체험 예약</a></div>
+<div class="badge">찰칵홈 예시 · 가상 스튜디오 · <a href="https://kisthestar1-boop.github.io/minsung-ai/web/">만들기 문의</a></div>
+<script>
+const D=["월","화","수","목","금","토"],TM=["09:30","11:00","19:00","20:10","21:20"];
+const C={"월":{"09:30":1,"19:00":2,"20:10":1,"21:20":3},"화":{"11:00":2,"19:00":1,"20:10":3},"수":{"09:30":1,"19:00":2,"20:10":1,"21:20":3},"목":{"11:00":2,"19:00":1,"20:10":3},"금":{"09:30":1,"19:00":1,"20:10":2},"토":{"09:30":2,"11:00":1}};
+const N={1:"기구 소그룹",2:"바른 자세",3:"코어 집중"};const $=s=>document.querySelector(s);
+$("#tb").innerHTML=`<tr><th>시간</th>${D.map(d=>`<th>${d}</th>`).join("")}</tr>`+TM.map(t=>`<tr><td><b>${t}</b></td>${D.map(d=>{const k=(C[d]||{})[t];return `<td>${k?`<span class="t${k}">${N[k]}</span>`:""}</td>`}).join("")}</tr>`).join("");
+let slot="";$("#sl").innerHTML=["오전 9~12시","오후 12~17시","저녁 18~20시","밤 20~22시"].map(x=>`<button type="button">${x}</button>`).join("");
+$("#sl").onclick=e=>{const b=e.target.closest("button");if(!b)return;slot=b.textContent;[...$("#sl").children].forEach(x=>x.classList.toggle("on",x===b))};
+$("#f").onsubmit=async e=>{e.preventDefault();const ok=$("#ok"),b=e.target.querySelector("button.btn");b.disabled=true;ok.hidden=false;ok.textContent="보내는 중…";
+ const msg=`수업: ${$("#k").value} · 날짜: ${$("#d").value||"미정"} · 시간: ${slot||"미정"}\n${$("#m").value}`;
+ try{const j=await (await fetch("https://script.google.com/macros/s/AKfycbz09Pualc3dVyOYhjRIBLY1lVpeZMpi8YMoUFlBcqWjJ30gKJagm0HAhio3rFaIf_E/exec",{method:"POST",body:JSON.stringify({op:"hpq",f:{kind:"🧘 체험 예약 · 온결필라테스(예시)",name:$("#n").value,contact:$("#c").value,msg}})})).json();if(j.error)throw new Error(j.error);ok.textContent=`✅ 예약 신청됐어요 (번호 ${j.id}). 확인 문자를 드릴게요.`;e.target.reset()}
+ catch(err){ok.textContent="보내지 못했어요. 전화로 문의해 주세요."}b.disabled=false};
+</script>
+</body>
+</html>
