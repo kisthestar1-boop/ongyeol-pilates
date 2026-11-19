@@ -72,6 +72,14 @@ section{padding-block:100px}section.alt{background:var(--cr)}
 footer{background:#2F3A31;color:#B9C2B5;padding-block:44px;font-size:14px}footer b{color:#fff}
 .fab{position:fixed;right:18px;bottom:18px;z-index:40}.fab a{display:flex;align-items:center;gap:8px;background:var(--sg2);color:#fff;font-weight:700;border-radius:99px;padding:14px 20px;box-shadow:0 12px 26px rgba(0,0,0,.22)}
 .badge{position:fixed;left:14px;bottom:14px;z-index:40;background:rgba(47,58,49,.9);color:#fff;font-size:12px;font-weight:600;border-radius:99px;padding:7px 12px}.badge a{color:#D9E8C9}
+
+.offer{display:inline-flex;flex-direction:column;gap:2px;background:rgba(255,255,255,.88);border-left:4px solid var(--sg);border-radius:10px;padding:12px 18px;margin:0 0 22px;color:#2E3A30}.offer b{font-size:20px}.offer span{font-size:13.5px;opacity:.75}
+.hb{display:flex;gap:10px;flex-wrap:wrap}.btn.g{background:rgba(255,255,255,.9);color:#2E3A30}
+.cap{display:block;margin-top:16px;font-size:14.5px;opacity:.9}
+.fv{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.fv div{background:#fff;border:1px solid rgba(0,0,0,.07);border-radius:18px;padding:26px}.fv b{font-size:18px}.fv p{margin:10px 0 0;color:var(--mu,#6b6b6b)}
+@media(max-width:760px){.fv{grid-template-columns:1fr}}
+.sch td span em{display:block;font-style:normal;font-size:11.5px;opacity:.7;margin-top:2px}
+.fcall{position:fixed;left:18px;bottom:64px;z-index:40;background:#fff;color:var(--ink);font-weight:800;border-radius:99px;padding:13px 18px;box-shadow:0 12px 26px rgba(0,0,0,.18)}
 </style>
 </head>
 <body>
@@ -83,7 +91,9 @@ footer{background:#2F3A31;color:#B9C2B5;padding-block:44px;font-size:14px}footer
  <div class="ey">PILATES STUDIO · JANGYU</div>
  <h1>몸의 결을<br><i>다시 바르게.</i></h1>
  <p>바른 자세와 가벼운 몸. 기구 필라테스로 내 몸에 맞춘 1:1부터 소그룹까지, 장유 삼문동 온결 필라테스입니다.</p>
- <a class="btn l" href="#book">첫 체험 수업 예약 →</a>
+ <div class="offer"><b>첫 체험 1회 1만 원</b><span>체형 분석 포함 · 처음 오신 분만 · 예시 가격</span></div>
+ <div class="hb"><a class="btn l" href="#book">첫 체험 수업 예약 →</a><a class="btn g" href="#sch">이번 주 시간표</a></div>
+ <small class="cap">👥 수업당 최대 4명이라 동작 하나하나 봐 드려요</small>
 </div></div>
 <div class="strip"><div class="w"><div><b>최대 4명</b><span>소그룹 기구 수업</span></div><div><b>체형 분석</b><span>첫 수업 무료 진단</span></div><div><b>평일 22시</b><span>퇴근 후에도</span></div><div><b>주차 2시간</b><span>건물 무료 주차</span></div></div></div>
 
@@ -93,6 +103,15 @@ footer{background:#2F3A31;color:#B9C2B5;padding-block:44px;font-size:14px}footer
   <p style="color:var(--mu)">온결은 '바른 결'이라는 뜻이에요. 굽은 어깨, 뻐근한 허리, 출산 후 약해진 코어까지. 체형을 먼저 살피고 나에게 맞는 동작부터 시작합니다.</p>
   <ul><li><b>1</b><span><strong>체형 분석</strong> — 첫 수업에서 자세 사진으로 불균형을 확인해요</span></li><li><b>2</b><span><strong>맞춤 프로그램</strong> — 목표에 맞춰 수업 종류와 횟수를 추천해요</span></li><li><b>3</b><span><strong>변화 기록</strong> — 한 달마다 자세 사진을 비교해 드려요</span></li></ul></div>
 </div></div></section>
+
+<section id="first"><div class="w">
+ <div class="sh c"><span class="k">First visit</span><h2>처음 오시나요?</h2><p>운동이 처음이어도 괜찮아요. 첫날은 이렇게 진행돼요.</p></div>
+ <div class="fv">
+  <div><b>👟 준비물</b><p>편한 운동복과 양말만 챙겨 오세요. 미끄럼 방지 양말은 무료로 드려요.</p></div>
+  <div><b>📷 체형 분석 15분</b><p>자세 사진을 찍고 어깨 · 골반 균형을 같이 확인해요.</p></div>
+  <div><b>🧘 맞춤 체험 35분</b><p>내 몸에 맞는 동작 몇 가지를 리포머로 천천히 해 봐요.</p></div>
+ </div>
+</div></section>
 
 <section id="class" class="alt"><div class="w">
  <div class="sh c"><span class="k">Classes</span><h2>수업 안내</h2><p>목표와 몸 상태에 맞게 골라 보세요. 처음이면 체험 수업 때 추천해 드려요.</p></div>
@@ -161,13 +180,13 @@ footer{background:#2F3A31;color:#B9C2B5;padding-block:44px;font-size:14px}footer
 </div></section>
 
 <footer><div class="w"><b>온결 필라테스</b> (예시) · 김해 장유<br>© 2026 Ongyeol Pilates · 이 사이트는 <a href="https://kisthestar1-boop.github.io/minsung-ai/web/" style="color:#D9E8C9">찰칵홈</a>이 만든 예시예요 · 상호·가격·후기는 가상</div></footer>
-<div class="fab"><a href="#book">🧘 체험 예약</a></div>
+<a class="fcall" href="tel:055-000-0000">📞 바로 전화</a><div class="fab"><a href="#book">🧘 체험 예약 · 1만 원</a></div>
 <div class="badge">찰칵홈 예시 · 가상 스튜디오 · <a href="https://kisthestar1-boop.github.io/minsung-ai/web/">만들기 문의</a></div>
 <script>
 const D=["월","화","수","목","금","토"],TM=["09:30","11:00","19:00","20:10","21:20"];
 const C={"월":{"09:30":1,"19:00":2,"20:10":1,"21:20":3},"화":{"11:00":2,"19:00":1,"20:10":3},"수":{"09:30":1,"19:00":2,"20:10":1,"21:20":3},"목":{"11:00":2,"19:00":1,"20:10":3},"금":{"09:30":1,"19:00":1,"20:10":2},"토":{"09:30":2,"11:00":1}};
 const N={1:"기구 소그룹",2:"바른 자세",3:"코어 집중"};const $=s=>document.querySelector(s);
-$("#tb").innerHTML=`<tr><th>시간</th>${D.map(d=>`<th>${d}</th>`).join("")}</tr>`+TM.map(t=>`<tr><td><b>${t}</b></td>${D.map(d=>{const k=(C[d]||{})[t];return `<td>${k?`<span class="t${k}">${N[k]}</span>`:""}</td>`}).join("")}</tr>`).join("");
+$("#tb").innerHTML=`<tr><th>시간</th>${D.map(d=>`<th>${d}</th>`).join("")}</tr>`+TM.map(t=>`<tr><td><b>${t}</b></td>${D.map(d=>{const k=(C[d]||{})[t];const r=(d.charCodeAt(0)+t.charCodeAt(1)+t.charCodeAt(3))%4;return `<td>${k?`<span class="t${k}">${N[k]}<em>${r?`${r}자리`:"마감"}</em></span>`:""}</td>`}).join("")}</tr>`).join("");
 let slot="";$("#sl").innerHTML=["오전 9~12시","오후 12~17시","저녁 18~20시","밤 20~22시"].map(x=>`<button type="button">${x}</button>`).join("");
 $("#sl").onclick=e=>{const b=e.target.closest("button");if(!b)return;slot=b.textContent;[...$("#sl").children].forEach(x=>x.classList.toggle("on",x===b))};
 $("#f").onsubmit=async e=>{e.preventDefault();const ok=$("#ok"),b=e.target.querySelector("button.btn");b.disabled=true;ok.hidden=false;ok.textContent="보내는 중…";
