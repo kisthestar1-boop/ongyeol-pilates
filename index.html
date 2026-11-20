@@ -106,6 +106,18 @@ html{scroll-behavior:auto!important}
 .pkb{position:relative;background:#fff;border-radius:22px;width:min(1040px,100%);max-height:92vh;overflow:auto;box-shadow:0 30px 80px rgba(0,0,0,.3)}
 .pkb>#pkc>section,.pkb>#pkc>div{margin:0!important}.pkb #pkc section{padding:34px 0 30px!important}
 .pkx{position:sticky;top:12px;float:right;margin:12px 12px 0 0;border:0;background:#EEF1F5;width:38px;height:38px;border-radius:12px;cursor:pointer;font-size:16px;z-index:3}
+
+.odir{display:inline-flex;align-items:center;gap:12px;margin-top:16px;padding:9px 16px 9px 10px;border-radius:14px;background:rgba(255,255,255,.9);color:#2E3A30;text-decoration:none}.odir>span:first-child{width:38px;height:38px;border-radius:11px;background:var(--sg2);display:grid;place-items:center}.odir small{display:block;font-size:12px;opacity:.75;font-weight:700}.odir b{font-size:20px;font-weight:900;letter-spacing:.01em}
+.tc .im{aspect-ratio:4/3.3!important;background-position:center 35%!important}.tc q{display:block;margin-top:10px;font-size:15px;color:var(--ink);quotes:"“" "”";line-height:1.55}
+@keyframes ogpan{from{background-position:50% 40%}to{background-position:50% 62%}}
+@keyframes ogzoom{from{transform:scale(1)}to{transform:scale(1.06)}}
+.intro .im{overflow:hidden;position:relative;background-image:none!important}.intro .im i{position:absolute;inset:0;background:url(img/about.jpg) center 30%/cover;animation:ogzoom 16s ease-in-out infinite alternate}
+.cl .im,.gal div,.tc .im{animation:ogpan 18s ease-in-out infinite alternate}
+.gal div:nth-child(2n){animation-delay:-6s}.cl:nth-child(2n) .im{animation-delay:-9s}
+.map{background-size:cover!important;background-position:center!important;position:relative;place-items:end!important;padding:14px}.map a{background:#03C75A;color:#fff;font-weight:800;text-decoration:none;border-radius:10px;padding:9px 14px;font-size:14px}
+.odock{display:none}.fcall{display:none!important}
+@media(max-width:760px){.fcall,.fab{display:none!important}.odock{position:fixed;left:12px;right:12px;bottom:12px;z-index:60;display:grid;grid-template-columns:1fr 1fr 1.5fr;gap:8px;background:rgba(36,48,40,.96);border-radius:18px;padding:8px;box-shadow:0 12px 30px rgba(0,0,0,.3)}.odock a{color:#fff;text-decoration:none;font-weight:800;font-size:14.5px;text-align:center;padding:12px 4px;border-radius:12px}.odock a.go{background:#E9F0E2;color:#2E3A30}footer{padding-bottom:110px!important}.badge{bottom:84px!important}}
+@media(prefers-reduced-motion:reduce){.intro .im i,.cl .im,.gal div,.tc .im{animation:none}}
 </style>
 </head>
 <body>
@@ -119,12 +131,13 @@ html{scroll-behavior:auto!important}
  <p>바른 자세와 가벼운 몸. 기구 필라테스로 내 몸에 맞춘 1:1부터 소그룹까지, 장유 삼문동 온결 필라테스입니다.</p>
  <div class="offer"><b>첫 체험 1회 1만 원</b><span>체형 분석 포함 · 처음 오신 분만 · 예시 가격</span></div>
  <div class="hb"><a class="btn l" href="#book">첫 체험 수업 예약 →</a><a class="btn g" href="#sch">이번 주 시간표</a></div>
+ <a class="odir" href="tel:01000000000"><span><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></svg></span><span><small>원장님 직통 · 문자도 편하게</small><b>010-0000-0000</b></span></a>
  <small class="cap">👥 수업당 최대 4명이라 동작 하나하나 봐 드려요</small>
 </div></div>
 <div class="strip"><div class="w"><div><b>최대 4명</b><span>소그룹 기구 수업</span></div><div><b>체형 분석</b><span>첫 수업 무료 진단</span></div><div><b>평일 22시</b><span>퇴근 후에도</span></div><div><b>주차 2시간</b><span>건물 무료 주차</span></div></div></div>
 
 <section id="about"><div class="w"><div class="intro">
- <div class="im" style="background-image:url(img/about.jpg)"></div>
+ <div class="im" style="background-image:url(img/about.jpg)"><i></i></div>
  <div><span class="sh"><span class="k">About</span></span><q>“운동이 처음이어도 괜찮아요. 몸이 먼저 달라지는 걸 느끼실 거예요.”</q>
   <p style="color:var(--mu)">온결은 '바른 결'이라는 뜻이에요. 굽은 어깨, 뻐근한 허리, 출산 후 약해진 코어까지. 체형을 먼저 살피고 나에게 맞는 동작부터 시작합니다.</p>
   <ul><li><b>1</b><span><strong>체형 분석</strong> — 첫 수업에서 자세 사진으로 불균형을 확인해요</span></li><li><b>2</b><span><strong>맞춤 프로그램</strong> — 목표에 맞춰 수업 종류와 횟수를 추천해요</span></li><li><b>3</b><span><strong>변화 기록</strong> — 한 달마다 자세 사진을 비교해 드려요</span></li></ul></div>
@@ -167,9 +180,9 @@ html{scroll-behavior:auto!important}
 <section id="tch"><div class="w">
  <div class="sh"><span class="k">Instructors</span><h2>강사 소개</h2></div>
  <div class="tch">
-  <div class="tc"><div class="im" style="background-image:url(img/t1.jpg)"></div><b>정유나 원장</b><small>재활 필라테스 · 8년</small><p>국제 필라테스 자격 · 산전산후 전문 과정</p></div>
-  <div class="tc"><div class="im" style="background-image:url(img/t2.jpg)"></div><b>한지수 강사</b><small>기구 소그룹 · 5년</small><p>체형 교정 · 바른 자세 프로그램</p></div>
-  <div class="tc"><div class="im" style="background-image:url(img/t3.jpg)"></div><b>오세린 강사</b><small>코어 · 다이어트 · 4년</small><p>퇴근 후 저녁반 담당</p></div>
+  <div class="tc"><div class="im" style="background-image:url(img/t1.jpg)"></div><b>정유나 원장</b><small>재활 필라테스 · 8년</small><p>국제 필라테스 자격 · 산전산후 전문 과정</p><q>아픈 곳부터 먼저 여쭤봐요. 동작은 그다음이에요.</q></div>
+  <div class="tc"><div class="im" style="background-image:url(img/t2.jpg)"></div><b>한지수 강사</b><small>기구 소그룹 · 5년</small><p>체형 교정 · 바른 자세 프로그램</p><q>발끝 각도 하나까지 같이 맞춰 드릴게요.</q></div>
+  <div class="tc"><div class="im" style="background-image:url(img/t3.jpg)"></div><b>오세린 강사</b><small>코어 · 다이어트 · 4년</small><p>퇴근 후 저녁반 담당</p><q>지친 저녁, 웃으면서 땀 흘리고 가세요.</q></div>
  </div>
 </div></section>
 
@@ -228,12 +241,12 @@ html{scroll-behavior:auto!important}
 </div></div>
 <section id="info"><div class="w">
  <div class="sh"><span class="k">Location</span><h2>오시는 길</h2></div>
- <div class="info"><div class="map">🗺 지도 자리<br><small>실제 사이트에서는 네이버·카카오 지도</small></div>
-  <table><tr><th>주소</th><td>경남 김해시 장유 삼문동 ○○로 ○○, 4층 (예시)</td></tr><tr><th>운영</th><td>평일 09:00 ~ 22:00 · 토 09:00 ~ 14:00 · 일 휴무</td></tr><tr><th>전화</th><td>055-000-0000 (예시)</td></tr><tr><th>주차</th><td>건물 주차장 2시간 무료</td></tr></table></div>
+ <div class="info"><div class="map" style="background-image:url(img/s1.jpg)"><a href="https://map.naver.com/" target="_blank" rel="noopener">네이버 지도로 길찾기 ↗</a></div>
+  <table><tr><th>주소</th><td>경남 김해시 장유 삼문동 ○○로 ○○, 4층 (예시)</td></tr><tr><th>운영</th><td>평일 09:00 ~ 22:00 · 토 09:00 ~ 14:00 · 일 휴무</td></tr><tr><th>원장 직통</th><td><a href="tel:01000000000" style="font-weight:800">010-0000-0000</a> (문자 OK · 예시)</td></tr><tr><th>주차</th><td>건물 주차장 2시간 무료</td></tr></table></div>
 </div></section>
 
 <footer><div class="w"><b>온결 필라테스</b> (예시) · 김해 장유<br>© 2026 Ongyeol Pilates · 이 사이트는 <a href="https://kisthestar1-boop.github.io/minsung-ai/web/" style="color:#D9E8C9">찰칵홈</a>이 만든 예시예요 · 상호·가격·후기는 가상</div></footer>
-<a class="fcall" href="tel:055-000-0000">📞 바로 전화</a><div class="fab"><a href="#" data-kk class="fkk">💬 카톡 상담</a><a href="#book">🧘 체험 예약 · 1만 원</a></div>
+<a class="fcall" href="tel:01000000000">📞 원장 직통</a><div class="odock"><a href="tel:01000000000">📞 전화</a><a href="#" data-kk>💬 카톡</a><a class="go" href="#book">체험 1만 원 예약</a></div><div class="fab"><a href="#" data-kk class="fkk">💬 카톡 상담</a><a href="#book">🧘 체험 예약 · 1만 원</a></div>
 <div class="badge">찰칵홈 예시 · 가상 스튜디오 · <a href="https://kisthestar1-boop.github.io/minsung-ai/web/">만들기 문의</a></div>
 <script>
 const D=["월","화","수","목","금","토"],TM=["09:30","11:00","19:00","20:10","21:20"];
